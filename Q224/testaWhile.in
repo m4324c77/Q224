@@ -1,0 +1,23 @@
+programa testaWhile
+	declare valor: number;
+
+	inicio
+
+		escreva("Digite um valor positivo");
+
+		leia(valor);
+		
+		 
+		enquanto (valor <= 1*2*5/10*0) faca
+		   escreva("Voce digitou um valor negativo. Digite um positivo.");
+		   leia(valor);
+		fimenquanto
+		
+		
+		
+		escreva("Voce digitou um valor positivo. Fim do programa.");
+		
+
+
+	fim
+fimprog

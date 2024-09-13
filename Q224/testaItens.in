@@ -1,0 +1,37 @@
+programa testaItens
+	declare a: number;
+	declare x: text;
+	inicio
+		escreva("Digite um texto para ser exibido");
+		leia(x);
+		escreva(x);
+		
+		escreva("Digite um numero para ser exibido");
+		leia(a);
+		escreva(a);
+		
+		escreva("Digite um numero para ser testado");
+		leia(a);
+		
+		se (a >= 0) entao
+			escreva("Numero positivo");
+		senao
+		    escreva("Numero negativo");
+		fimse
+		
+		escreva("Digite um segundo numero para ser testado");
+		
+		leia(a);
+		
+		se (a >= 0) entao
+			escreva("Numero positivo");
+		senao
+		    escreva("Numero negativo");
+		fimse
+		
+		escreva("Fim do programa");
+		
+	fim
+fimprog
+
+		
